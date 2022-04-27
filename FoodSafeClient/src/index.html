@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Safe</title>
+</head>
+<body>
+    <h1>Food Safe</h1>
+    <br><label for="contract Address">Cotnract Address ::</label></br>
+    <input type="text" id="contractAddress" id="Scan address or create new contract">
+
+     <br><label for="locationId">Location id ::</label></br>
+    <input type="text" id="locationId" id="Enter the id of the location">
+
+     <br><label for="locationName">Location Name ::</label></br>
+    <input type="text" id="locationName" id="Enter the Name of the location">
+    
+     <br><label for="secret">Secret ::</label></br>
+    <input type="text" id="secret" id="Enter a secret">
+
+     <br><label for="passPhrase">passPhrase ::</label></br>
+    <input type="text" id="passPhrase" id="Enter or scan a passPhrase">
+
+    <button id="createContract" onclick="App.createContract()">Create new Contract</button>
+    <br>
+
+    <button id="addNewLocation" onclick="App.addNewLocation()">Add new Location</button>
+</body>
+<script src="index.js"></script>
+</html>
